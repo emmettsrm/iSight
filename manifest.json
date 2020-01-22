@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
   
-    "name": "Python Chrome Plugin",
-    "description": "This extension runs Python code.",
+    "name": "iSight Graph Interpreter",
+    "description": "This extension interprets graphical data for those requiring assistance interpreting visual data.",
     "version": "1.0",
   
     "browser_action": {
