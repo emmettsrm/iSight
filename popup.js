@@ -1,7 +1,7 @@
 scanBtn = document.getElementsByTagName('button');
 alert(scanBtn)
 
-scanBtn.addEventListener('click', findImg)
+scanBtn.addEventListener('click', findImg);
 
 function findImg(){
     alert("button works")
