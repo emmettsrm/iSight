@@ -5,7 +5,7 @@ function findImg(){
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    scanBtn = document.getElementsByTagName('button');
+    scanBtn = document.getElementsByTagName('button')[0];
     alert(scanBtn)
     scanBtn.addEventListener('click', findImg);
   });
