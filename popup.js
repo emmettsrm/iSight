@@ -1,7 +1,5 @@
-console.log("hi")
+alert(document.getElementById('scan-button'));
 
-// let scannedDoc = document.getElementById('scan-button');
-// console.log(scannedDoc)
 
 // scannedDoc.addEventListener('click', findImg)
 
