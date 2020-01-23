@@ -1,11 +1,10 @@
 
 
 function findImg(){
-    alert("button works")
+    alert(window.location.href)
 }
 
 document.addEventListener("DOMContentLoaded", function(){
     scanBtn = document.getElementsByTagName('button')[0];
-    alert(scanBtn)
     scanBtn.addEventListener('click', findImg);
   });
