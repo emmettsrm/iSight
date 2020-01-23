@@ -1,5 +1,5 @@
 scanBtn = document.getElementsByTagName('button');
-
+alert(scanBtn)
 
 scanBtn.addEventListener('click', findImg)
 
