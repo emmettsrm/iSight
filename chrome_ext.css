@@ -1,0 +1,35 @@
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+  }
+#status {
+    white-space: pre;
+    text-overflow: visible;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+}
+
+#scan-button {
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 25px;
+    text-decoration:none;
+    border: none;
+}
+#scan-button:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+#scan-button:active {
+	position:relative;
+	top:1px;
+}
+button:focus {outline:0;}
