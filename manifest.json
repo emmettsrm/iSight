@@ -5,13 +5,12 @@
     "description": "This extension interprets graphical data for those requiring assistance interpreting visual data.",
     "version": "1.0",
   
-  
-    "page_action": {
-      "default_popup": "popup.html",
-      "default_icon": "icon.png"
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
     },
     "background": {
-      "scripts": ["background.js", "./js/popup.js"],
+      "scripts": ["background.js"],
       "persistent": false
     },
     "permissions": [

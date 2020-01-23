@@ -1,19 +1,13 @@
-// let scannedDoc = document.getElementById('scan-button')
+console.log("hi")
+
+// let scannedDoc = document.getElementById('scan-button');
 // console.log(scannedDoc)
 
-// scannedDoc.addEventListener('click', findImg())
+// scannedDoc.addEventListener('click', findImg)
 
-// function findImg(){
-//     console.log("button works")
-// }
-
-function hello() {
-  chrome.tabs.executeScript({
-    file: 'popup.js'
-  }); 
+function findImg(){
+    console.log("button works")
 }
-
-document.getElementById('scan-button').addEventListener('click', hello);
 
 // chrome.storage.sync.get('color', function(data) {
 //     scannedDoc.style.backgroundColor = data.color;
