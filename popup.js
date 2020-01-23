@@ -1,4 +1,4 @@
-let changeColor = document.getElementById('changeColor');
+let changeColor = document.getElementById('scan-button');
 
 changeColor.onclick = function(element) {
     let color = element.target.value;
