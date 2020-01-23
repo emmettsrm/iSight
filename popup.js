@@ -6,7 +6,7 @@ function findImg(){
         var jsonUrl = JSON.stringify(url);
         alert(jsonUrl);
         loading = true;
-        let loader = `<div class="boxLoading"></div>`;
+        let loader = `<div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`;
         document.getElementsByTagName('button')[0].innerHTML = loader;
         fetch('/hello', {
             method: 'POST',
