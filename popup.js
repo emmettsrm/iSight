@@ -6,8 +6,8 @@ function findImg(){
         var jsonUrl = JSON.stringify(url);
         alert(jsonUrl);
         loading = true;
-        let loader = `<div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`;
-        document.getElementsById('status').innerHTML = loader;
+        let loader = `<div class="loading"></div>`;
+        document.getElementsByTagName('button')[0].innerHTML = loader;
         fetch('/hello', {
             method: 'POST',
             body: jsonUrl
@@ -15,7 +15,7 @@ function findImg(){
         }).then(function (response) {
             return response.text();
         }).then(function (text) {
-            document.getElementsById('status').innerHTML = "done";
+            document.getElementsByTagName('button')[0].innerHTML = "done";
             alert('POST response: ' + text);
         });
 
