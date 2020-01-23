@@ -1,10 +1,10 @@
-alert(document.getElementsByTagName('button'));
+scanBtn = document.getElementsByTagName('button'));
 
 
-// scannedDoc.addEventListener('click', findImg)
+scanBtn.addEventListener('click', findImg)
 
 function findImg(){
-    console.log("button works")
+    alert("button works")
 }
 
 // chrome.storage.sync.get('color', function(data) {
