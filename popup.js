@@ -1,12 +1,14 @@
-scanBtn = document.getElementsByTagName('button');
-alert(scanBtn)
 
-scanBtn.addEventListener('click', findImg);
 
 function findImg(){
     alert("button works")
 }
 
+document.addEventListener("DOMContentLoaded", function(){
+    scanBtn = document.getElementsByTagName('button');
+    alert(scanBtn)
+    scanBtn.addEventListener('click', findImg);
+  });
 // chrome.storage.sync.get('color', function(data) {
 //     scannedDoc.style.backgroundColor = data.color;
 //     scannedDoc.setAttribute('value', data.color);
