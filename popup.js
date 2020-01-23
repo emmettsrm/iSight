@@ -5,7 +5,6 @@ function findImg(){
         var url = tabs[0].url;
         alert(url);
     });
-    alert(window.location.href)
 }
 
 document.addEventListener("DOMContentLoaded", function(){
